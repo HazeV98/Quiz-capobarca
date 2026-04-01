@@ -1,602 +1,724 @@
 [
   {
-    "question": "Come viene definita una 'nave minore' dal Codice della Navigazione?",
-    "options": ["Una nave destinata esclusivamente al diporto", "Una nave destinata alla navigazione costiera (entro 20 miglia) o al servizio dei porti", "Una nave che non supera i 10 metri di lunghezza", "Una nave senza motore"],
+    "question": "Secondo il Codice della Navigazione, cosa definisce una 'Nave Maggiore'?",
+    "options": [
+      "Un'unità destinata alla navigazione interna",
+      "Un'unità d'altura destinata alla navigazione oltre le 20 miglia dalla costa",
+      "Qualsiasi barca a vela superiore ai 12 metri",
+      "Un'unità militare da combattimento"
+    ],
     "answer": 1,
-    "rationale": "Le navi minori sono quelle destinate alla navigazione litoranea, costiera o locale, entro le 20 miglia dalla costa."
+    "rationale": "Le navi maggiori sono quelle destinate alla navigazione di alto mare, superiori a 10 tonnellate se a motore o 25 se a vela."
   },
   {
-    "question": "Qual è il limite di stazza per un'imbarcazione a vela per essere considerata 'nave minore'?",
-    "options": ["Fino a 10 Tonnellate", "Fino a 25 Tonnellate", "Fino a 50 Tonnellate", "Oltre le 100 Tonnellate"],
+    "question": "Qual è la lunghezza massima per definire un'unità da diporto come 'natante'?",
+    "options": ["6 metri", "10 metri", "12 metri", "24 metri"],
     "answer": 1,
-    "rationale": "Le navi minori a vela hanno una stazza lorda non superiore a 25 tonnellate (mentre a motore il limite è 10 tonnellate)."
+    "rationale": "I natanti da diporto sono unità a remi, vela o motore con lunghezza scafo pari o inferiore a 10 metri."
   },
   {
-    "question": "Cosa si intende per 'Galleggiabilità' di una nave?",
-    "options": ["La capacità di resistere alla pressione dell'acqua", "L'attitudine della nave a rimanere a galla con il carico prestabilito", "La velocità massima che può raggiungere", "La capacità di non inclinarsi"],
+    "question": "Quali sono le tre qualità fisiche essenziali di una nave?",
+    "options": [
+      "Velocità, Manovrabilità, Stabilità",
+      "Solidità, Galleggiabilità, Impermeabilità",
+      "Stazza, Dislocamento, Portata",
+      "Potenza, Sicurezza, Efficienza"
+    ],
     "answer": 1,
-    "rationale": "La galleggiabilità è la qualità che permette alla nave di galleggiare mantenendo una determinata linea di immersione."
+    "rationale": "Queste sono le qualità strutturali: deve resistere ai carichi (solidità), stare a galla (galleggiabilità) e non imbarcare acqua (impermeabilità)."
   },
   {
-    "question": "Qual è la funzione principale dei 'Paramezzali' nella struttura della nave?",
-    "options": ["Sostenere le vele", "Rinforzare longitudinalmente il fondo della nave", "Evitare che l'acqua entri dagli oblò", "Proteggere l'elica"],
+    "question": "Che cos'è la 'Chiglia'?",
+    "options": [
+      "Il rinforzo del timone",
+      "La trave longitudinale principale che costituisce la spina dorsale dello scafo",
+      "La parte superiore dell'albero",
+      "La corda che tiene l'ancora"
+    ],
     "answer": 1,
-    "rationale": "I paramezzali sono robusti elementi longitudinali che corrono sopra le ordinate per rinforzare il fondo."
+    "rationale": "La chiglia corre da prua a poppa sul fondo ed è l'elemento portante di tutta l'ossatura."
   },
   {
-    "question": "Cosa sono i 'Bagli'?",
-    "options": ["Travi trasversali che sostengono i ponti e collegano i fianchi", "I vetri degli oblò", "Le cime usate per l'ormeggio", "Le luci di via"],
+    "question": "Cosa sono le 'Ordinate' (o costole)?",
+    "options": [
+      "Le travi del ponte",
+      "Elementi trasversali che danno forma ai fianchi e irrobustiscono la nave",
+      "Le reti da pesca",
+      "Le bussole di bordo"
+    ],
+    "answer": 1,
+    "rationale": "Le ordinate sono i 'costoloni' trasversali fissati alla chiglia che sostengono il fasciame."
+  },
+  {
+    "question": "Qual è la funzione dei 'Bagli'?",
+    "options": [
+      "Sostenere le vele",
+      "Unire le estremità superiori delle ordinate e sostenere i ponti",
+      "Proteggere l'elica",
+      "Illuminare il porto"
+    ],
+    "answer": 1,
+    "rationale": "I bagli sono le travi trasversali che 'chiudono' lo scafo in alto e sorreggono il pavimento dei ponti."
+  },
+  {
+    "question": "Cos'è il 'Paramezzale'?",
+    "options": [
+      "Un rinforzo longitudinale che corre sopra le ordinate sul fondo della nave",
+      "La protezione esterna della prua",
+      "Un pezzo del motore",
+      "Un tipo di vela quadra"
+    ],
     "answer": 0,
-    "rationale": "I bagli sono travi trasversali che uniscono le estremità superiori delle costole, sostenendo il ponte di coperta."
+    "rationale": "I paramezzali rinforzano la chiglia internamente distribuendo i carichi verticali."
   },
   {
-    "question": "Cos'è il 'Bordo Libero'?",
-    "options": ["La parte della nave sopra il ponte principale", "La distanza verticale tra la linea di galleggiamento e il ponte stagno più alto", "La zona del porto senza divieti di sosta", "La larghezza massima della nave"],
+    "question": "Cosa si intende per 'Grembiule' in termini strutturali?",
+    "options": [
+      "La divisa del personale",
+      "Il rinforzo interno della ruota di prua",
+      "La parte finale della poppa",
+      "Il telo copribarca"
+    ],
     "answer": 1,
-    "rationale": "Il bordo libero è la riserva di galleggiabilità: la distanza tra l'acqua e il ponte di coperta."
+    "rationale": "Il grembiule è un robusto elemento in legno o acciaio posto a rinforzo della prua."
   },
   {
-    "question": "Il 'Dislocamento a pieno carico' comprende:",
-    "options": ["Solo il peso dello scafo nudo", "Il peso della nave inclusi combustibile, acqua, equipaggio e massimo carico", "Solo il peso dei passeggeri", "Il volume d'aria interno"],
-    "answer": 1,
-    "rationale": "Il dislocamento a pieno carico rappresenta il peso totale della nave pronta per prendere il mare."
-  },
-  {
-    "question": "Nello studio dell'elica, il 'Passo Teorico' è:",
-    "options": ["La velocità della nave in nodi", "L'avanzamento dell'elica in un giro completo supponendo che si muova in un corpo solido", "Il diametro del mozzo", "La distanza tra l'elica e il timone"],
-    "answer": 1,
-    "rationale": "Il passo teorico è lo spazio che l'elica percorrerebbe in un giro se l'acqua non cedesse (come una vite nel legno)."
-  },
-  {
-    "question": "Un'elica sinistrorsa, in marcia avanti, tende a spostare la poppa verso:",
-    "options": ["Dritta", "Sinistra", "In alto", "In basso"],
-    "answer": 1,
-    "rationale": "Per l'effetto evolutivo, un'elica che gira a sinistra spinge lateralmente l'acqua verso poppa-sinistra."
-  },
-  {
-    "question": "In una nave a due eliche controrotanti (che girano verso l'esterno), l'effetto evolutivo è:",
-    "options": ["Raddoppiato", "Annullato", "Instabile", "Solo verso dritta"],
-    "answer": 1,
-    "rationale": "Le eliche controrotanti bilanciano i rispettivi effetti laterali, rendendo la navigazione rettilinea più semplice."
-  },
-  {
-    "question": "Che funzione ha il 'Cavo di guardia' nel timone?",
-    "options": ["Fermare la nave", "Evitare la perdita della pala in caso di rottura dei perni", "Tirare su l'ancora", "Misurare la velocità"],
-    "answer": 1,
-    "rationale": "È un cavo di sicurezza che assicura la pala del timone allo scafo per non perderla in caso di avaria ai perni."
-  },
-  {
-    "question": "Si ha un equilibrio 'instabile' quando il Metacentro (M) si trova:",
-    "options": ["Sopra il centro di gravità (G)", "Sotto il centro di gravità (G)", "Sulla stessa linea dell'elica", "A prua della nave"],
-    "answer": 1,
-    "rationale": "Se M è sotto G, la coppia di forze che si genera tende ad aumentare l'inclinazione fino al ribaltamento."
-  },
-  {
-    "question": "Cosa si intende per 'Nave Sbandata'?",
-    "options": ["Una nave che viaggia a zig-zag", "Una nave inclinata lateralmente per cause esterne (vento, onde)", "Una nave che affonda di prua", "Una nave senza timone"],
-    "answer": 1,
-    "rationale": "Lo sbandamento è l'inclinazione trasversale momentanea dovuta a forze esterne."
-  },
-  {
-    "question": "Qual è lo strumento che misura la pressione atmosferica?",
-    "options": ["Igrometro", "Anemometro", "Barometro", "Termometro"],
-    "answer": 2,
-    "rationale": "Il barometro misura la pressione atmosferica, dato fondamentale per prevedere il tempo."
-  },
-  {
-    "question": "Un miglio marino corrisponde a un arco di meridiano pari a:",
-    "options": ["Un grado", "Un primo", "Un secondo", "Dieci primi"],
-    "answer": 1,
-    "rationale": "Il miglio nautico (1852m) è definito come la lunghezza di 1' (un primo) di arco di meridiano."
-  },
-  {
-    "question": "Cosa indica la 'Latitudine'?",
-    "options": ["La distanza angolare dall'Equatore", "La distanza angolare da Greenwich", "L'altezza della nave sul mare", "La profondità del fondale"],
+    "question": "Cosa sono gli 'Ombrinali'?",
+    "options": [
+      "Fori per lo scarico dell'acqua dai ponti o dalle murate",
+      "Le luci della cabina",
+      "Le finestre della stiva",
+      "I tappi dell'olio"
+    ],
     "answer": 0,
-    "rationale": "La latitudine misura quanto un punto è a Nord o a Sud rispetto all'Equatore."
+    "rationale": "Servono a far defluire rapidamente l'acqua dal ponte verso il mare."
   },
   {
-    "question": "Da dove proviene il vento di 'Scirocco'?",
-    "options": ["Nord", "Sud-Est", "Sud-Ovest", "Nord-Est"],
+    "question": "La 'Sentina' è la parte interna della nave dove:",
+    "options": [
+      "Si conservano i cibi",
+      "Si accumulano le acque di scolo e le infiltrazioni",
+      "Dormono i passeggeri",
+      "Si mette l'ancora"
+    ],
     "answer": 1,
-    "rationale": "Lo Scirocco soffia da Sud-Est (SE)."
+    "rationale": "La sentina è lo spazio più basso dello scafo dove finiscono tutti i liquidi prima di essere pompati fuori."
   },
   {
-    "question": "Cos'è la 'Lossodromia' sulla carta di Mercatore?",
-    "options": ["La rotta più breve tra due punti", "Una linea che taglia i meridiani con angolo costante (linea retta sulla carta)", "Il cerchio massimo terrestre", "Una zona di secca"],
+    "question": "Cos'è il 'Boccaporto'?",
+    "options": [
+      "L'ingresso del porto",
+      "L'apertura sul ponte per l'accesso alle stive o ai locali sottostanti",
+      "La bocca del cannone",
+      "Il tubo di scappamento"
+    ],
     "answer": 1,
-    "rationale": "La lossodromia è la rotta a prora costante, rappresentata come retta sulla proiezione di Mercatore."
+    "rationale": "Le aperture orizzontali sulla coperta sono protette da boccaporti per garantire l'impermeabilità."
   },
   {
-    "question": "La deviazione magnetica (δ) è causata da:",
-    "options": ["Distanza dal Polo Nord", "Masse ferrose e circuiti elettrici di bordo", "Corrente marina", "Vento laterale"],
+    "question": "Cosa si intende per 'Bordo Libero'?",
+    "options": [
+      "Una zona di mare senza pirati",
+      "La distanza verticale tra la linea di galleggiamento e il ponte di coperta",
+      "La larghezza della barca",
+      "Il peso della nave vuota"
+    ],
     "answer": 1,
-    "rationale": "I ferri di bordo influenzano l'ago della bussola creando un errore chiamato deviazione."
+    "rationale": "Rappresenta la riserva di galleggiabilità della nave."
   },
   {
-    "question": "Come si calcola la Prora Vera (Pv)?",
-    "options": ["Pv = Pb + d + δ", "Pv = Pb - d", "Pv = Ps + Scarroccio", "Pv = 360 - Latitudine"],
+    "question": "Il 'Dislocamento' di una nave corrisponde a:",
+    "options": [
+      "Il volume della stiva",
+      "Il peso della nave, pari al peso del volume d'acqua spostato (Archimede)",
+      "La velocità massima",
+      "La profondità del mare"
+    ],
+    "answer": 1,
+    "rationale": "Il dislocamento è la massa effettiva della nave espressa in tonnellate."
+  },
+  {
+    "question": "Cos'è la 'Stazza'?",
+    "options": [
+      "Il peso totale",
+      "Il volume interno di tutti i locali chiusi (misurato in Tonnellate di Stazza)",
+      "L'altezza della prua",
+      "La forza del motore"
+    ],
+    "answer": 1,
+    "rationale": "La stazza è una misura di capacità volumetrica (1 ton stazza = 2,832 metri cubi)."
+  },
+  {
+    "question": "Qual è la differenza tra Portata Lorda e Portata Netta?",
+    "options": [
+      "Nessuna",
+      "La lorda include i pesi fissi, la netta solo il carico",
+      "La netta è il peso dei passeggeri, la lorda quello del carburante",
+      "La lorda comprende pesi mobili e di consumo; la netta è l'effettivo carico utile trasportabile"
+    ],
+    "answer": 3,
+    "rationale": "La portata netta è ciò che effettivamente 'guadagna' per la nave (merci e passeggeri)."
+  },
+  {
+    "question": "Dove si trova il 'Metacentro' (M) in una nave stabile?",
+    "options": [
+      "Sotto il baricentro (G)",
+      "Sopra il baricentro (G)",
+      "A prua della nave",
+      "Sulla chiglia"
+    ],
+    "answer": 1,
+    "rationale": "Finché M è sopra G, lo sbandamento genera una forza che riporta la nave dritta."
+  },
+  {
+    "question": "Cosa indica l''Assetto' (Trim) della nave?",
+    "options": [
+      "Il colore della vernice",
+      "L'inclinazione longitudinale (differenza tra immersione di poppa e prua)",
+      "La velocità in nodi",
+      "Il numero di bussole"
+    ],
+    "answer": 1,
+    "rationale": "Si dice 'appruata' se affonda più a prua, 'appoppata' se affonda più a poppa."
+  },
+  {
+    "question": "In un'elica, cos'è il 'Passo Teorico'?",
+    "options": [
+      "La distanza percorsa in un giro completo in un mezzo solido",
+      "La velocità di rotazione",
+      "Il diametro delle pale",
+      "La profondità a cui lavora"
+    ],
     "answer": 0,
-    "rationale": "La prora vera si ottiene correggendo la prora bussola con la declinazione e la deviazione."
+    "rationale": "È l'avanzamento ideale che l'elica avrebbe se l'acqua fosse solida (come una vite nel legno)."
   },
   {
-    "question": "Cos'è il 'Punto Nave stimato'?",
-    "options": ["Il punto misurato con il GPS", "La posizione calcolata in base a rotta, velocità e tempo trascorsi dall'ultimo punto certo", "Un punto segnato a caso sulla carta", "La profondità letta dall'ecoscandaglio"],
+    "question": "Che cos'è il 'Regresso'?",
+    "options": [
+      "La marcia indietro",
+      "La differenza tra passo teorico e passo effettivo (percorso nell'acqua)",
+      "L'usura dei motori",
+      "Il fumo dello scarico"
+    ],
     "answer": 1,
-    "rationale": "La navigazione stimata determina la posizione teorica senza ausilio di riferimenti esterni."
+    "rationale": "L'acqua cede sotto la spinta; il regresso misura quanto l'elica 'slitta' nel liquido."
   },
   {
-    "question": "In un ormeggio di punta (in banchina), la cima che evita lo spostamento in avanti della nave è:",
-    "options": ["Lo spring di prua", "Il traversino", "Lo spring di poppa", "La gommina"],
+    "question": "Un'elica 'Destrorsa' in marcia avanti tende a spostare:",
+    "options": [
+      "La poppa a sinistra",
+      "La poppa a dritta",
+      "La prua a dritta",
+      "La nave verso l'alto"
+    ],
+    "answer": 1,
+    "rationale": "Per effetto evolutivo, la poppa viene spinta verso dritta (e la prua accosta a sinistra)."
+  },
+  {
+    "question": "Cos'è la 'Cavitazione'?",
+    "options": [
+      "L'ingresso di acqua nel filtro olio",
+      "La formazione di bolle di vapore/aria sulle pale che riducono la spinta",
+      "L'incaglio dell'elica",
+      "Il raffreddamento del motore"
+    ],
+    "answer": 1,
+    "rationale": "Avviene quando l'elica gira troppo velocemente creando depressioni che 'strappano' l'acqua."
+  },
+  {
+    "question": "Qual è il vantaggio di un timone 'Compensato'?",
+    "options": [
+      "Costa meno",
+      "Una parte della pala (30-50%) è a pruavia dell'asse di rotazione, riducendo lo sforzo di manovra",
+      "Sostituisce l'elica",
+      "Funziona meglio in nebbia"
+    ],
+    "answer": 1,
+    "rationale": "La pressione dell'acqua sulla parte anteriore bilancia quella sulla parte posteriore."
+  },
+  {
+    "question": "Cosa sono gli 'Spring' durante l'ormeggio?",
+    "options": [
+      "Le molle dei letti",
+      "Cavi incrociati che impediscono lo spostamento longitudinale della nave",
+      "Le ancore di rispetto",
+      "I parabordi"
+    ],
+    "answer": 1,
+    "rationale": "Lo spring di prua impedisce alla nave di arretrare; quello di poppa impedisce di avanzare."
+  },
+  {
+    "question": "A quanti metri equivale un Miglio Nautico?",
+    "options": ["1000", "1609", "1852", "2000"],
     "answer": 2,
-    "rationale": "Lo spring di poppa (o d'andata) impedisce alla nave di avanzare."
+    "rationale": "Corrisponde alla lunghezza di 1' (un primo) di arco di meridiano terrestre."
   },
   {
-    "question": "Cosa indica un 'Ciclone' o zona di Bassa Pressione?",
-    "options": ["Tempo stabile e sereno", "Tempo instabile, spesso con pioggia e vento forte", "Assenza totale di vento", "Mare calmo"],
+    "question": "Qual è il principale vantaggio della Proiezione di Mercatore?",
+    "options": [
+      "Le distanze sono sempre esatte ovunque",
+      "Rappresenta la Lossodromia (rotta costante) come una linea retta",
+      "Non ha distorsioni ai poli",
+      "Mostra i fondali in 3D"
+    ],
     "answer": 1,
-    "rationale": "La bassa pressione richiama aria, creando instabilità e perturbazioni."
+    "rationale": "Permette al navigatore di tracciare la rotta bussola semplicemente con una riga."
   },
   {
-    "question": "Chi è il Capo del Circondario Marittimo?",
-    "options": ["Il Comandante della Capitaneria di Porto", "Il Sindaco", "Il Prefetto", "Un Ufficiale dell'Esercito"],
+    "question": "Cos'è la 'Declinazione Magnetica' (d)?",
+    "options": [
+      "L'errore causato dai ferri di bordo",
+      "L'angolo tra il Nord Vero (geografico) e il Nord Magnetico",
+      "L'inclinazione della bussola",
+      "La profondità del polo"
+    ],
+    "answer": 1,
+    "rationale": "I poli geografici e magnetici non coincidono; la differenza varia in base alla posizione sulla Terra."
+  },
+  {
+    "question": "Lo 'Scarroccio' è la deviazione della rotta causata da:",
+    "options": ["Corrente marina", "Vento laterale", "Elica", "Onde di scia"],
+    "answer": 1,
+    "rationale": "Il vento sposta la nave lateralmente rispetto alla direzione della prua."
+  },
+  {
+    "question": "La 'Deriva' è la deviazione della rotta causata da:",
+    "options": ["Corrente marina", "Vento", "Peso del carico", "Scarsa visibilità"],
     "answer": 0,
-    "rationale": "Il Circondario Marittimo è retto dal Comandante della Capitaneria di Porto."
+    "rationale": "È lo spostamento della nave dovuto al movimento della massa d'acqua."
   },
   {
-    "question": "Cosa significa 'Governare la nave'?",
-    "options": ["Pulire il ponte", "Comandare l'equipaggio", "Dirigere la nave sulla rotta prestabilita tramite il timone", "Cucinare per i passeggeri"],
+    "question": "Quale vento soffia da Nord-Ovest (NW)?",
+    "options": ["Scirocco", "Maestrale", "Grecale", "Libeccio"],
+    "answer": 1,
+    "rationale": "Dalla rosa dei venti: NW = Maestrale."
+  },
+  {
+    "question": "Cosa indica il Barometro?",
+    "options": ["Velocità vento", "Umidità", "Pressione atmosferica", "Profondità"],
     "answer": 2,
-    "rationale": "Governare significa manovrare per mantenere o cambiare la direzione della nave."
+    "rationale": "Variazioni di pressione indicano l'arrivo di bel tempo o perturbazioni."
   },
   {
-    "question": "Qual è il significato del segnale sonoro: un fischio lungo (—)?",
-    "options": ["Sto accostando a dritta", "Sto accostando a sinistra", "Nave in movimento (propulsione meccanica) con nebbia", "Sto andando indietro"],
+    "question": "In un Ciclone (Bassa Pressione), l'aria nell'emisfero Nord circola:",
+    "options": ["In senso orario", "In senso antiorario", "Dall'alto verso il basso", "In linea retta"],
+    "answer": 1,
+    "rationale": "La legge di Buys-Ballot spiega la rotazione antioraria attorno ai centri di bassa pressione."
+  },
+  {
+    "question": "Cosa si intende per 'Mare Territoriale'?",
+    "options": [
+      "Tutto il Mediterraneo",
+      "La zona entro 12 miglia dalla costa dove lo Stato ha sovranità",
+      "Le acque interne ai porti",
+      "La zona oltre le 200 miglia"
+    ],
+    "answer": 1,
+    "rationale": "Il limite internazionale standard del mare territoriale è di 12 miglia nautiche."
+  },
+  {
+    "question": "Quali sono i limiti di comando per un 'Capobarca per il traffico locale'?",
+    "options": [
+      "Navi oltre 500 GT",
+      "Navi fino a 100 GT merci o 25 GT passeggeri (acque locali)",
+      "Qualsiasi nave senza limiti",
+      "Solo battelli a remi"
+    ],
+    "answer": 1,
+    "rationale": "È un titolo professionale per la navigazione costiera e locale entro certi limiti di stazza."
+  },
+  {
+    "question": "Cosa disciplina il COLREG 72?",
+    "options": [
+      "Le tasse portuali",
+      "Le regole per prevenire gli abbordi (collisioni) in mare",
+      "Il salvataggio delle balene",
+      "L'inquinamento da olio"
+    ],
+    "answer": 1,
+    "rationale": "È il regolamento internazionale per precedenze, fanali e segnali sonori."
+  },
+  {
+    "question": "Qual è il settore di visibilità del fanale di 'Testa d'Albero'?",
+    "options": ["360°", "112,5°", "225°", "135°"],
     "answer": 2,
-    "rationale": "In condizioni di visibilità ridotta, un suono lungo ogni 2 minuti indica nave a motore con abbrivo."
+    "rationale": "Mostra luce da prua fino a 22,5° a poppavia del traverso per ciascun lato."
   },
   {
-    "question": "Cosa indica il segnale sonoro: tre fischi brevi (· · ·)?",
-    "options": ["Sto andando indietro con le macchine", "Pericolo immediato", "Chiedo il pilota", "Saluto"],
+    "question": "Che colore e arco ha il fanale di 'Poppa' (Coronamento)?",
+    "options": ["Bianco, 360°", "Bianco, 135°", "Giallo, 225°", "Verde, 112,5°"],
+    "answer": 1,
+    "rationale": "Luce bianca diretta verso poppa su un arco di 135°."
+  },
+  {
+    "question": "Una nave a motore superiore a 50 metri deve mostrare di notte:",
+    "options": [
+      "Un solo fanale bianco",
+      "Due fanali bianchi di testa d'albero (quello di poppa più in alto)",
+      "Tre luci rosse",
+      "Nessun fanale bianco"
+    ],
+    "answer": 1,
+    "rationale": "Il secondo fanale di testa d'albero è obbligatorio per navi sopra i 50 metri."
+  },
+  {
+    "question": "Cosa indica la combinazione 'Bianco sopra Rosso' (360°) di notte?",
+    "options": ["Nave incagliata", "Nave pilota in servizio", "Peschereccio", "Nave che non governa"],
+    "answer": 1,
+    "rationale": "Regola mnemonica: 'Bianco il cappello, rosso il naso (per il freddo), ecco il Pilota'."
+  },
+  {
+    "question": "Che luci mostra una nave 'Che non governa' (NUC) ferma?",
+    "options": ["Due luci rosse verticali (360°)", "Tre luci bianche", "Verde e Rosso laterali", "Una luce gialla"],
     "answer": 0,
-    "rationale": "Tre suoni brevi indicano: 'Le mie macchine stanno andando indietro'."
+    "rationale": "Due rosse verticali indicano impossibilità a manovrare. Se non ha abbrivo, le luci di via sono spente."
   },
   {
-    "question": "Quale fanale mostra una nave all'ancora di lunghezza inferiore a 50 metri?",
-    "options": ["Un fanale rosso", "Un fanale bianco visibile a 360 gradi", "I fanali laterali rosso e verde", "Nessun fanale"],
-    "answer": 1,
-    "rationale": "Di notte, le navi all'ancora mostrano una luce bianca circolare dove sia meglio visibile."
-  },
-  {
-    "question": "Che colore hanno i fanali laterali?",
-    "options": ["Bianco e Giallo", "Verde a dritta e Rosso a sinistra", "Rosso a dritta e Verde a sinistra", "Entrambi bianchi"],
-    "answer": 1,
-    "rationale": "Per convenzione internazionale: Dritta = Verde, Sinistra = Rosso."
-  },
-  {
-    "question": "Di notte, una nave a motore di 20 metri mostra:",
-    "options": ["Solo i fanali laterali", "Fanali laterali, fanale di poppa e un fanale di testa d'albero", "Due fanali rossi", "Un fanale giallo lampeggiante"],
-    "answer": 1,
-    "rationale": "Le unità a motore tra 12 e 50 metri mostrano testa d'albero (225°), laterali e poppa."
-  },
-  {
-    "question": "Quale sagoma diurna mostra una nave che non governa?",
-    "options": ["Un cono", "Un rombo", "Due palloni neri sovrapposti", "Un cilindro"],
+    "question": "Quale segnale diurno mostra una nave all'ancora?",
+    "options": ["Un cilindro", "Un bicono", "Un pallone (sfera) nero", "Tre croci"],
     "answer": 2,
-    "rationale": "Due sfere (palloni) nere indicano nave NUC (Not Under Command)."
+    "rationale": "Una singola sfera nera a prua indica nave alla fonda."
   },
   {
-    "question": "Cosa indica una boa cilindrica ROSSA nel sistema IALA zona A?",
-    "options": ["Canale principale a dritta", "Ostacolo isolato", "Segnale laterale di Sinistra", "Acque sicure"],
+    "question": "Che luce emette un sommergibile in emersione in aggiunta alle luci di via?",
+    "options": ["Luce blu rotante", "Luce gialla lampeggiante (360°)", "Luce verde fissa", "Luce rossa intermittente"],
+    "answer": 1,
+    "rationale": "I sommergibili in superficie mostrano questa luce gialla per essere meglio identificati."
+  },
+  {
+    "question": "Cosa significa il segnale sonoro di un fischio breve (·)?",
+    "options": ["Vado indietro", "Sto accostando a dritta", "Sto accostando a sinistra", "Chiedo il pilota"],
+    "answer": 1,
+    "rationale": "Indica manovra verso destra (dritta)."
+  },
+  {
+    "question": "In nebbia, una nave a motore con abbrivo emette:",
+    "options": ["Un fischio lungo ogni 2 minuti", "Due fischi lunghi", "Cinque fischi brevi", "Silenzio"],
+    "answer": 0,
+    "rationale": "Segnale per segnalare la propria presenza e movimento in scarsa visibilità."
+  },
+  {
+    "question": "Nel sistema IALA A (Italia), entrando in porto, la boa di SINISTRA è:",
+    "options": ["Verde, conica", "Rossa, cilindrica", "Gialla, sferica", "Bianca e Nera"],
+    "answer": 1,
+    "rationale": "Regione A: Sinistra = Rosso (forma cilindrica)."
+  },
+  {
+    "question": "Cosa indica una boa con strisce orizzontali ROSSE e NERE e due sfere nere sopra?",
+    "options": ["Acque sicure", "Pericolo isolato", "Cardinale Nord", "Zona balneare"],
+    "answer": 1,
+    "rationale": "Segnala un pericolo (es. scoglio) circondato da acque navigabili."
+  },
+  {
+    "question": "Un segnale cardinale OVEST ha come miraglio:",
+    "options": ["Due coni punte in alto", "Due coni punte in basso", "Due coni con le punte unite (clessidra)", "Due coni basi unite"],
     "answer": 2,
-    "rationale": "Nel sistema IALA A (Europa), il rosso indica il lato sinistro entrando in porto."
+    "rationale": "Le punte unite indicano l'Ovest."
   },
   {
-    "question": "Una boa con due sfere nere sovrapposte indica:",
-    "options": ["Un segnale cardinale Nord", "Un segnale di pericolo isolato", "Un canale navigabile", "Una zona di balneazione"],
+    "question": "Nella gerarchia delle precedenze, chi ha diritto di rotta tra una nave a vela e un motoscafo?",
+    "options": ["Il motoscafo", "La nave a vela", "Chi viene da dritta", "Chi è più veloce"],
     "answer": 1,
-    "rationale": "Le due sfere nere indicano un pericolo (scoglio, relitto) circondato da acque navigabili."
+    "rationale": "L'unità a propulsione meccanica deve dare precedenza alla vela (salvo caso di sorpasso)."
   },
   {
-    "question": "Che colori ha una boa cardinale EST?",
-    "options": ["Giallo sopra Nero", "Nero con una fascia gialla in mezzo", "Giallo con una fascia nera in mezzo", "Nero sopra Giallo"],
+    "question": "Cosa deve fare una nave 'Raggiungente' (in sorpasso)?",
+    "options": [
+      "Ha la precedenza",
+      "Deve manovrare per tenersi ben distante dalla nave raggiunta finché non è passata",
+      "Deve suonare 10 volte",
+      "Deve spegnere i motori"
+    ],
     "answer": 1,
-    "rationale": "Cardinale Est: Nero con fascia gialla. I coni hanno le punte opposte (base contro base)."
+    "rationale": "Chi sorpassa non ha mai la precedenza, indipendentemente dal tipo di propulsione."
   },
   {
-    "question": "In caso di uomo in mare, la manovra di Boutakow serve a:",
-    "options": ["Aumentare la velocità", "Tornare esattamente sulla scia precedente invertendo la rotta", "Frenare la nave", "Calare la scialuppa"],
+    "question": "La manovra di 'Boutakow' serve per:",
+    "options": ["Attraccare", "Tornare esattamente sulla scia inversa per recuperare un uomo in mare", "Aumentare la stabilità", "Ancorare con vento forte"],
     "answer": 1,
-    "rationale": "È una manovra di precisione che riporta la nave sulla rotta opposta nello stesso punto dell'incidente."
+    "rationale": "Si accosta di 60° e poi si vira dal lato opposto per tornare sulla rotta originaria invertita."
   },
   {
-    "question": "Cosa significa 'andare alla cappa'?",
-    "options": ["Aumentare la velocità durante il temporale", "Manovra per tenere il mare con maltempo, esponendo la prua o il mascone alle onde con velocità minima", "Ancorare in porto", "Mettere la copertura alla barca"],
+    "question": "Cos'è l'Ancora Galleggiante?",
+    "options": ["Un'ancora che non affonda", "Un sacco di tela che fa resistenza per tenere la prua al vento durante il maltempo", "Un gavitello", "La boa del sub"],
     "answer": 1,
-    "rationale": "La cappa è un'andatura di sicurezza per affrontare il mare grosso limitando i danni."
+    "rationale": "Si usa per ridurre lo scarroccio e mantenere l'assetto 'alla cappa' in mare grosso."
+  },
+  {
+    "question": "Cosa indica l'esposizione della bandiera 'A' (Alfa)?",
+    "options": ["Uomo in mare", "Ho un subacqueo in immersione; mantenetevi a distanza", "Richiedo soccorso", "Ho incendio a bordo"],
+    "answer": 1,
+    "rationale": "Bandiera bicolore bianco/blu a coda di rondine."
   },
   {
     "question": "Qual è il compito del 'VTS' (Vessel Traffic Service)?",
-    "options": ["Riparare i motori", "Monitorare e coordinare il traffico navale in zone congestionate o pericolose", "Vendere biglietti", "Pulire le spiagge"],
+    "options": ["Pulire le spiagge", "Monitorare e coordinare il traffico navale per la sicurezza della navigazione", "Noleggiare barche", "Vendere carburante"],
     "answer": 1,
-    "rationale": "Il VTS è un sistema di sorveglianza per la sicurezza della navigazione costiera."
+    "rationale": "È il 'centro di controllo del traffico' delle autorità marittime."
   },
   {
-    "question": "Cosa indica la bandiera 'B' (Bravo) del Codice Internazionale?",
-    "options": ["Sto caricando o scaricando merci pericolose/esplosivi", "Ho il pilota a bordo", "Richiedo assistenza", "Uomo in mare"],
+    "question": "Cosa sono le 'Costole' (Ordinate) della nave?",
+    "options": ["Le sedie", "Elementi trasversali che formano l'ossatura laterale", "I remi", "Le luci"],
+    "answer": 1,
+    "rationale": "Costituiscono lo scheletro trasversale della nave."
+  },
+  {
+    "question": "Cos'è la 'Ruota di Prua'?",
+    "options": ["Il timone", "L'elemento strutturale che chiude lo scafo a prua", "La ruota del capitano", "Un ventilatore"],
+    "answer": 1,
+    "rationale": "È la prosecuzione della chiglia che sale verso l'alto a prua."
+  },
+  {
+    "question": "In un motore Diesel, l'accensione avviene per:",
+    "options": ["Scintilla delle candele", "Compressione dell'aria", "Uso di fiammiferi", "Iniezione di acqua"],
+    "answer": 1,
+    "rationale": "L'aria compressa si scalda a tal punto da incendiare il gasolio iniettato."
+  },
+  {
+    "question": "A cosa servono le 'Pompe di Sentina'?",
+    "options": ["A lavare i ponti", "A espellere l'acqua accumulata sul fondo dello scafo", "Ad alimentare i motori", "A gonfiare i salvagenti"],
+    "answer": 1,
+    "rationale": "Fondamentali per l'impermeabilità e la sicurezza."
+  },
+  {
+    "question": "Cosa indica una Rosa dei Venti con 16 punte?",
+    "options": ["L'età della nave", "Le direzioni principali e intermedie del vento", "Il numero dei passeggeri", "La stazza lorda"],
+    "answer": 1,
+    "rationale": "Include Tramontana, Greco, Levante, Scirocco, Mezzogiorno, Libeccio, Ponente, Maestro e i loro intermedi."
+  },
+  {
+    "question": "Cos'è un 'Anticiclone'?",
+    "options": ["Una tempesta", "Una zona di alta pressione associata a bel tempo", "Un guasto al motore", "Un tipo di elica"],
+    "answer": 1,
+    "rationale": "Porta stabilità atmosferica."
+  },
+  {
+    "question": "Quale ufficio marittimo è gerarchicamente superiore?",
+    "options": ["Delegazione di spiaggia", "Capitaneria di Porto (Compartimento)", "Ufficio locale", "Ufficio circondariale"],
+    "answer": 1,
+    "rationale": "Il Compartimento Marittimo coordina gli uffici minori."
+  },
+  {
+    "question": "Il 'Giornale di Bordo' deve essere:",
+    "options": ["Scritto a matita", "Firmato giornalmente dal Comandante", "Tenuto segreto", "Usato per disegnare"],
+    "answer": 1,
+    "rationale": "È un documento ufficiale con valore legale."
+  },
+  {
+    "question": "Cosa indica il segnale sonoro di DUE fischi lunghi (— —) in nebbia?",
+    "options": ["Nave con abbrivo", "Nave a motore ferma (senza abbrivo)", "Nave all'ancora", "Pericolo imminente"],
+    "answer": 1,
+    "rationale": "Indica che la nave è ferma nell'acqua."
+  },
+  {
+    "question": "Che luci mostra una nave incagliata di notte?",
+    "options": ["Solo luci laterali", "Due luci rosse verticali e le luci di fonda", "Una luce verde", "Cinque luci bianche"],
+    "answer": 1,
+    "rationale": "Segnala che è ferma sul fondo e impossibilitata a manovrare."
+  },
+  {
+    "question": "Il 'Coronamento' si trova a:",
+    "options": ["Prua", "Poppa", "Centro nave", "In cima all'albero"],
+    "answer": 1,
+    "rationale": "È la parte superiore della struttura di poppa."
+  },
+  {
+    "question": "Una boa cardinale EST ha colori:",
+    "options": ["Nero con fascia gialla", "Giallo con fascia nera", "Tutta nera", "Bianca e Rossa"],
     "answer": 0,
-    "rationale": "La bandiera rossa Bravo indica operazioni con carichi pericolosi."
+    "rationale": "Nero-Giallo-Nero (miraglio: coni con basi unite)."
   },
   {
-    "question": "Se due navi a vela ricevono il vento da lati diversi, chi deve dare la precedenza?",
-    "options": ["Quella che ha il vento a sinistra", "Quella che ha il vento a dritta", "La più grande", "Quella che viaggia più veloce"],
+    "question": "Cos'è il 'Punto di Rugiada'?",
+    "options": ["Il punto dove si scende a terra", "La temperatura a cui il vapore condensa", "La profondità massima", "Un tipo di nodo"],
+    "answer": 1,
+    "rationale": "Fondamentale per prevedere la nebbia."
+  },
+  {
+    "question": "Chi è responsabile del carico?",
+    "options": ["L'armatore", "Il Comandante", "Il porto", "Il marinaio"],
+    "answer": 1,
+    "rationale": "Il Comandante deve vigilare sulla corretta stivazione."
+  },
+  {
+    "question": "Cosa sono le 'Mure' di una barca a vela?",
+    "options": ["Le pareti", "Il lato da cui riceve il vento", "Le ancore", "I remi"],
+    "answer": 1,
+    "rationale": "Mure a dritta = vento da destra; mure a sinistra = vento da sinistra."
+  },
+  {
+    "question": "Il segnale di 'Uomo in mare' (diurno) è:",
+    "options": ["Bandiera O (Oscar)", "Bandiera Q", "Un pallone nero", "Un fischio breve"],
     "answer": 0,
-    "rationale": "Regola COLREG: la nave con mure a sinistra (vento da sinistra) deve lasciare libera la rotta all'altra."
+    "rationale": "Bandiera gialla e rossa divisa diagonalmente."
   },
   {
-    "question": "Di notte, tre luci rosse in linea verticale indicano:",
-    "options": ["Nave pilota", "Nave condizionata dal proprio pescaggio", "Rimorchiatore", "Nave all'ancora"],
+    "question": "Cos'è la 'Gomena'?",
+    "options": ["Una colla", "Una grossa fune per ormeggio", "Una vela", "Una bussola"],
     "answer": 1,
-    "rationale": "Tre luci rosse fisse a 360° indicano un'unità limitata dal pescaggio che può navigare solo nel canale."
+    "rationale": "Usata per navi di grandi dimensioni."
   },
   {
-    "question": "Qual è il segnale diurno di 'Nave incagliata'?",
-    "options": ["Un cilindro", "Tre palloni neri sovrapposti", "Un cono", "Due rombi"],
+    "question": "Cosa indica un bicono (rombo) nero di giorno?",
+    "options": ["Nave all'ancora", "Rimorchio superiore a 200 metri", "Nave incagliata", "Sub in acqua"],
     "answer": 1,
-    "rationale": "Nave incagliata = Nave che non governa (2 palloni) + Nave all'ancora (1 pallone) = 3 palloni."
+    "rationale": "Segnale obbligatorio per segnalare convogli molto lunghi."
   },
   {
-    "question": "Una boa con strisce verticali bianche e rosse indica:",
-    "options": ["Pericolo isolato", "Acque sicure (centro canale)", "Lavori in corso", "Zona militare"],
+    "question": "La 'Lossodromia' taglia i meridiani con angolo:",
+    "options": ["Variabile", "Costante", "Retto", "Zero"],
     "answer": 1,
-    "rationale": "Il segnale di acque sicure indica che intorno alla boa il mare è libero."
+    "rationale": "È la rotta seguita mantenendo la prora bussola fissa."
   },
   {
-    "question": "Cos'è l'ancora galleggiante?",
-    "options": ["Un'ancora di ferro molto leggera", "Un sacco di tela robusta che fa resistenza in acqua per mantenere la prua al vento", "Un gavitello", "L'ancora di rispetto"],
+    "question": "Qual è lo strumento per misurare l'umidità?",
+    "options": ["Barometro", "Igrometro", "Anemometro", "Sestante"],
     "answer": 1,
-    "rationale": "Si usa durante la cappa per frenare lo scarroccio e mantenere l'assetto rispetto alle onde."
+    "rationale": "L'igrometro misura il vapore acqueo nell'aria."
   },
   {
-    "question": "Cosa si intende per 'assetto' della nave?",
-    "options": ["La pulizia del ponte", "La differenza tra l'immersione di poppa e quella di prua", "La velocità del motore", "Il numero dei passeggeri"],
+    "question": "Cosa significa 'Mettersi alla cappa'?",
+    "options": ["Andare a dormire", "Manovra per affrontare il mare grosso in sicurezza", "Ancorare", "Velocità massima"],
     "answer": 1,
-    "rationale": "L'assetto (trim) indica se la nave è appruata, appoppata o in piano."
+    "rationale": "Si riduce la velocità e si orienta la prua/mascone alle onde."
   },
   {
-    "question": "I segnali cardinali indicano dove si trova l'acqua navigabile rispetto a un pericolo. Il cardinale NORD ha:",
-    "options": ["Due coni con punte in basso", "Due coni con punte in alto", "Due coni con punte opposte", "Un solo pallone"],
+    "question": "Cos'è il 'Gavitello'?",
+    "options": ["Un pesce", "Un galleggiante per segnalare l'ancora", "Un tipo di cima", "Una luce"],
     "answer": 1,
-    "rationale": "Cardinale Nord: due coni neri con i vertici rivolti verso l'alto."
+    "rationale": "Viene ormeggiato al 'diamante' dell'ancora tramite la 'grippia'."
   },
   {
-    "question": "Nella gerarchia delle precedenze, chi ha l'ultimo posto (deve dare precedenza a tutti)?",
-    "options": ["Nave che non governa", "Unità a propulsione meccanica (motoscafo)", "Nave a vela", "Peschereccio"],
-    "answer": 1,
-    "rationale": "Le navi a motore devono dare precedenza a vela, pesca, RAM e NUC."
-  },
-  {
-    "question": "Cosa significa il segnale diurno 'Bandiera O' (Oscar)?",
-    "options": ["Nave in quarantena", "Uomo in mare", "Richiedo soccorso", "Sto calando le reti"],
-    "answer": 1,
-    "rationale": "La bandiera Oscar (gialla e rossa diagonale) indica 'Man Overboard'."
-  },
-  {
-    "question": "Il 'Grembiule' in una nave è:",
-    "options": ["Un indumento del cuoco", "Il rinforzo interno della ruota di prua", "La parte posteriore della poppa", "Una vela"],
-    "answer": 1,
-    "rationale": "Il grembiule è un elemento strutturale di rinforzo situato dietro la ruota di prua."
-  },
-  {
-    "question": "In caso di nebbia, una nave ferma senza abbrivo emette:",
-    "options": ["Un fischio lungo", "Due fischi lunghi ogni 2 minuti", "Suoni brevi continui", "Un suono di campana"],
-    "answer": 1,
-    "rationale": "Due suoni lunghi indicano nave a motore ferma (senza abbrivo) in condizioni di visibilità ridotta."
-  },
-  {
-    "question": "Chi è responsabile della tenuta dei documenti di bordo?",
-    "options": ["L'armatore", "Il Comandante", "Il Direttore di macchina", "L'Autorità Portuale"],
-    "answer": 1,
-    "rationale": "Il Comandante è legalmente responsabile della corretta compilazione e conservazione dei documenti (Giornale di bordo, ecc.)."
-  }, 
-  {
-    "question": "Qual è lo scopo della 'Chiglia' in una nave?",
-    "options": ["Sostenere l'albero motore", "Costituire la trave longitudinale principale e la spina dorsale dello scafo", "Proteggere la nave dai fulmini", "Fermare le infiltrazioni d'acqua"],
-    "answer": 1,
-    "rationale": "La chiglia è l'elemento strutturale più importante, da cui partono le ordinate."
-  },
-  {
-    "question": "Cosa si intende per 'Immersione' (Pescaggio) di una nave?",
-    "options": ["La distanza tra la linea di galleggiamento e la parte più bassa della chiglia", "L'altezza totale della nave", "La profondità massima del mare", "La distanza tra prua e poppa"],
-    "answer": 0,
-    "rationale": "L'immersione indica quanto la nave affonda nell'acqua."
-  },
-  {
-    "question": "In un'elica, il 'Diametro' è definito come:",
-    "options": ["La lunghezza delle pale", "Il diametro del cerchio descritto dall'estremità delle pale in rotazione", "La larghezza del mozzo", "La distanza tra elica e timone"],
-    "answer": 1,
-    "rationale": "Il diametro è la misura del cerchio esterno toccato dalle punte delle pale."
-  },
-  {
-    "question": "L'effetto dell'elica in retromarcia (destrorsa) tende a spostare la poppa verso:",
-    "options": ["Dritta", "Sinistra", "Rimane ferma", "Verso l'alto"],
-    "answer": 1,
-    "rationale": "In retromarcia, un'elica destrorsa produce una spinta laterale che porta la poppa a sinistra."
-  },
-  {
-    "question": "Cos'è il 'Timone a getto' (Idrogetto)?",
-    "options": ["Un timone molto lungo", "Un sistema che direziona il getto d'acqua della pompa di propulsione per far virare la nave", "Un timone mosso dall'aria", "Un timone automatico"],
-    "answer": 1,
-    "rationale": "Negli idrogetti non c'è una pala fisica, ma è l'orientamento del flusso d'acqua a far virare il mezzo."
-  },
-  {
-    "question": "Si definisce 'Stabilità di peso' quella ottenuta:",
-    "options": ["Aumentando la velocità", "Spostando i pesi verso l'alto", "Abbassando il centro di gravità (G) tramite zavorre o pesi fissi sul fondo", "Usando ancore più pesanti"],
+    "question": "In caso di incendio di liquidi (Classe B), non usare:",
+    "options": ["Schiuma", "CO2", "Acqua a getto", "Polvere"],
     "answer": 2,
-    "rationale": "Più il baricentro è basso, maggiore è la stabilità della nave."
+    "rationale": "L'acqua a getto spargerebbe il liquido infiammato peggiorando l'incendio."
   },
   {
-    "question": "Cosa indica l'Anemometro?",
-    "options": ["La direzione del mare", "La velocità del vento", "La temperatura dell'acqua", "L'umidità dell'aria"],
+    "question": "Cosa indica la bandiera 'B' (Bravo)?",
+    "options": ["Tutto bene", "Sto caricando esplosivi o merci pericolose", "Richiedo medico", "Vado a dritta"],
     "answer": 1,
-    "rationale": "L'anemometro misura l'intensità del vento, solitamente espressa in nodi o km/h."
+    "rationale": "Bandiera rossa rettangolare (o a coda di rondine)."
   },
   {
-    "question": "Un 'Nodo' corrisponde a una velocità di:",
-    "options": ["1 km/h", "1 Miglio nautico all'ora", "10 metri al secondo", "5 km/h"],
+    "question": "La 'Pratica Sanitaria' si richiede:",
+    "options": ["Sempre prima di partire", "Entrando in porto da acque straniere", "Ogni anno", "Mai"],
     "answer": 1,
-    "rationale": "Il nodo è l'unità di misura della velocità in mare: miglia percorse in un'ora."
+    "rationale": "Certifica che non ci sono rischi epidemici a bordo."
   },
   {
-    "question": "Quale vento soffia da Nord-Est (NE)?",
-    "options": ["Tramontana", "Grecale", "Levante", "Bora"],
+    "question": "Che suono emette una nave che non governa in nebbia?",
+    "options": ["1 lungo", "1 lungo + 2 brevi ogni 2 minuti", "3 brevi", "Suono continuo"],
     "answer": 1,
-    "rationale": "Il Grecale proviene da Nord-Est."
+    "rationale": "Segnale identico per RAM, pesca, vela e rimorchio."
   },
   {
-    "question": "La 'Declinazione Magnetica' cambia nel tempo?",
-    "options": ["No, è fissa per sempre", "Sì, il valore cambia annualmente ed è riportato sulla carta nautica", "Cambia solo se cambia il motore", "Cambia solo di notte"],
+    "question": "Cos'è lo 'Specchio di poppa'?",
+    "options": ["Un vetro per guardare dietro", "La superficie piatta che chiude lo scafo a poppa", "Un'elica speciale", "Una luce"],
     "answer": 1,
-    "rationale": "Il magnetismo terrestre varia lentamente; le carte indicano il valore e l'aumento/diminuzione annua."
+    "rationale": "Parte terminale trasversale della poppa."
   },
   {
-    "question": "Che cos'è l'Angolo di Scarroccio?",
-    "options": ["L'angolo tra il Nord vero e il Nord magnetico", "L'angolo tra la prora della nave e la direzione effettiva del moto dovuta al vento", "L'angolo di inclinazione della nave", "L'angolo di visuale del radar"],
+    "question": "Il 'Mascone' è la zona della nave:",
+    "options": ["Sopra il motore", "Ai lati della prua", "Ai lati della poppa", "Sotto la chiglia"],
     "answer": 1,
-    "rationale": "Il vento 'sposta' la nave lateralmente; la differenza tra dove punta la prua e dove va la nave è lo scarroccio."
+    "rationale": "È la parte arrotondata dello scafo tra la prua e il traverso."
   },
   {
-    "question": "In ormeggio, cos'è la 'Gomena'?",
-    "options": ["Un tipo di ancora", "Una cima di grande diametro usata per l'ormeggio di navi", "La catena dell'ancora", "La protezione in gomma della banchina"],
+    "question": "Cosa sono le 'Paratie'?",
+    "options": ["I letti", "Le pareti verticali interne che dividono la nave in compartimenti stagni", "Le vele", "I remi"],
     "answer": 1,
-    "rationale": "La gomena è una grossa fune tessile o metallica per l'ormeggio pesante."
+    "rationale": "Essenziali per l'impermeabilità e per limitare eventuali allagamenti."
   },
   {
-    "question": "Cosa indica un 'Anticiclone' o zona di Alta Pressione?",
-    "options": ["Temporali in arrivo", "Tempo stabile e generalmente buono", "Forte calo della temperatura", "Neve"],
+    "question": "Il 'Bordo' di una nave è:",
+    "options": ["Solo il lato", "Il complesso di tutto lo scafo e dei locali interni", "La fine della banchina", "Il timone"],
     "answer": 1,
-    "rationale": "L'alta pressione è solitamente associata a bel tempo e venti deboli."
+    "rationale": "Essere 'a bordo' significa essere sulla nave."
   },
   {
-    "question": "L'Ufficio Circondariale Marittimo è un ufficio di:",
-    "options": ["Primo livello", "Secondo livello", "Terzo livello", "Quarto livello"],
-    "answer": 2,
-    "rationale": "La gerarchia è: Direzione (1°), Compartimento (2°), Circondario (3°), Ufficio Locale/Delegazione (4°)."
-  },
-  {
-    "question": "Qual è il compito del Comandante in caso di abbandono nave?",
-    "options": ["Scendere per primo per coordinare da terra", "Essere l'ultimo ad abbandonare la nave, dopo aver fatto tutto il possibile per la salvezza di passeggeri ed equipaggio", "Chiamare solo i soccorsi e aspettare", "Salvare solo i documenti"],
+    "question": "Che funzione ha l'Anodo Sacrificale (Zinco)?",
+    "options": ["Abbellire la nave", "Proteggere le parti metalliche dalla corrosione galvanica", "Fare peso", "Illuminare"],
     "answer": 1,
-    "rationale": "Per legge e dovere morale, il comandante deve assicurarsi che tutti siano in salvo prima di lasciare il mezzo."
+    "rationale": "Lo zinco si corrode al posto degli altri metalli più nobili (elica, asse)."
   },
   {
-    "question": "Qual è la frequenza di emissione dei segnali sonori in caso di nebbia?",
-    "options": ["Ogni 30 secondi", "Almeno ogni 2 minuti", "Ogni 5 minuti", "Continuamente"],
+    "question": "Il 'Quadro' di poppa è tipico delle navi:",
+    "options": ["Antiche", "Con poppa tronca", "Molto veloci", "A vela"],
     "answer": 1,
-    "rationale": "Il regolamento COLREG prevede la ripetizione dei segnali da nebbia ad intervalli non superiori a 2 minuti."
+    "rationale": "Termine usato per descrivere la forma piatta della poppa."
   },
   {
-    "question": "Di notte, una nave a motore ferma e 'incagliata' mostra:",
-    "options": ["Due luci rosse verticali", "Due luci bianche", "Due luci rosse in verticale e le luci di fonda (bianche)", "Luci lampeggianti blu"],
-    "answer": 2,
-    "rationale": "Somma il segnale di 'Nave che non governa' (2 rosse) a quello di 'Nave all'ancora' (bianca)."
-  },
-  {
-    "question": "Il fanale di poppa ha un arco di visibilità di:",
-    "options": ["360 gradi", "225 gradi", "135 gradi", "112,5 gradi"],
-    "answer": 2,
-    "rationale": "Il fanale di poppa bianco copre il settore rimanente rispetto al fanale di testa d'albero (360-225=135)."
-  },
-  {
-    "question": "Cosa indica un segnale cardinale OVEST?",
-    "options": ["Due coni sovrapposti con punte unite (a clessidra)", "Due coni sovrapposti con punte in alto", "Due coni con punte in basso", "Giallo con fascia nera"],
-    "answer": 0,
-    "rationale": "Cardinale Ovest: punte unite. Colore: Giallo con fascia nera centrale."
-  },
-  {
-    "question": "Nel sistema IALA A, una boa a strisce orizzontali ROSSE e NERE con due sfere nere sopra indica:",
-    "options": ["Canale preferenziale", "Pericolo isolato", "Acque sicure", "Limite zona balneare"],
+    "question": "Cosa indica un fanale GIALLO lampeggiante di notte?",
+    "options": ["Nave pilota", "Nave a cuscino d'aria (Hovercraft) o sommergibile", "Nave all'ancora", "Peschereccio"],
     "answer": 1,
-    "rationale": "Rosso e Nero = Pericolo isolato (es. uno scoglio)."
+    "rationale": "Segnale di attenzione per unità veloci o particolari."
   },
   {
-    "question": "Cos'è la 'Gala di bandiere'?",
-    "options": ["Un modo per asciugare le bandiere", "L'addobbo della nave con le bandiere del codice internazionale in occasioni festive", "Un segnale di pericolo", "La bandiera del proprietario"],
+    "question": "Cos'è il 'Calumio'?",
+    "options": ["Un materiale chimico", "La lunghezza della catena o cima calata per l'ancoraggio", "Un tipo di pesce", "La velocità del vento"],
     "answer": 1,
-    "rationale": "Il Gran Pavese (o gala) si issa per festività o visite ufficiali."
+    "rationale": "Deve essere proporzionato alla profondità (solitamente 3-5 volte)."
   },
   {
-    "question": "In caso di incendio a bordo di tipo 'C' (gas), quale estintore è più indicato?",
-    "options": ["Acqua", "Schiuma", "Polvere o CO2", "Sabbia"],
-    "answer": 2,
-    "rationale": "Sui gas non si usa mai acqua o schiuma; servono agenti che soffocano la fiamma."
-  },
-  {
-    "question": "Cosa indica la bandiera 'Q' (Quebec)?",
-    "options": ["Ho un sub in mare", "La mia nave è 'indenne' (sana) e chiedo libera pratica sanitaria", "Ho bisogno di un medico", "Sto imbarcando posta"],
+    "question": "La 'Gassa d'amante' è:",
+    "options": ["Un tipo di pesce", "Un nodo che forma un cappio fisso non scorsoio", "Un'ancora", "Una manovra"],
     "answer": 1,
-    "rationale": "Viene issata entrando in porto per dichiarare che non ci sono malattie a bordo."
-  },
-  {
-    "question": "Una nave che ne sorpassa un'altra deve passare:",
-    "options": ["Sempre a dritta", "Sempre a sinistra", "Da qualsiasi lato, ma deve tenersi ben distante dalla nave sorpassata", "Deve aspettare che l'altra si fermi"],
-    "answer": 2,
-    "rationale": "Il sorpassante deve manovrare per non disturbare la nave sorpassata, scegliendo il lato più sicuro."
-  },
-  {
-    "question": "Il 'Punto di Rugiada' (Dew Point) indica:",
-    "options": ["La temperatura a cui l'umidità dell'aria condensa in nebbia o rugiada", "La pressione minima dell'occhio del ciclone", "La forza del mare", "La profondità del porto"],
-    "answer": 0,
-    "rationale": "È un dato meteo fondamentale per prevedere la formazione della nebbia."
-  },
-  {
-    "question": "Cos'è il 'Baricentro' (G) della nave?",
-    "options": ["Il punto dove si applica la spinta dell'acqua", "Il punto di applicazione della forza peso totale della nave", "Il centro del timone", "Il punto più alto dell'albero"],
-    "answer": 1,
-    "rationale": "Il baricentro è il centro di gravità dei pesi della nave."
-  },
-  {
-    "question": "Cosa sono le 'Costole' o 'Ordinate'?",
-    "options": ["Le panche per i passeggeri", "Elementi trasversali che formano l'ossatura dei fianchi della nave", "Le funi dell'ancora", "I canali di scolo dell'acqua"],
-    "answer": 1,
-    "rationale": "Le ordinate danno la forma allo scafo e sostengono il fasciame esterno."
-  },
-  {
-    "question": "Il 'Rapporto di compressione' è tipico dei motori:",
-    "options": ["A benzina", "Diesel", "Elettrici", "A vapore"],
-    "answer": 1,
-    "rationale": "Nel Diesel l'accensione avviene per compressione dell'aria nel cilindro."
-  },
-  {
-    "question": "Qual è lo scopo della 'Sentina'?",
-    "options": ["Contenere l'acqua potabile", "Raccogliere le acque di scolo, olio e infiltrazioni sul fondo dello scafo", "Alloggiare i passeggeri", "Rinfrescare il motore"],
-    "answer": 1,
-    "rationale": "La sentina è la parte più bassa interna dove si accumulano i liquidi da pompare fuori."
-  },
-  {
-    "question": "Cos'è la 'Rosa dei Venti'?",
-    "options": ["Un fiore marino", "Uno schema che indica la provenienza dei venti rispetto ai punti cardinali", "Una bussola rotta", "Un sistema di vele"],
-    "answer": 1,
-    "rationale": "Indica i 4 punti cardinali, i 4 intercardinali e i 8 intermedi."
-  },
-  {
-    "question": "Se vedi una boa GIALLA con una croce gialla sopra, indica:",
-    "options": ["Pericolo", "Acque sicure", "Segnale speciale (es. zone protette, cavi, aree militari)", "Canale navigabile"],
-    "answer": 2,
-    "rationale": "I segnali gialli indicano aree con scopi speciali non legati principalmente alla navigazione."
-  },
-  {
-    "question": "Cosa indica il segnale diurno con DUE CONI neri con le punte unite (a clessidra)?",
-    "options": ["Nave che non governa", "Nave intenta alla pesca (non a strascico)", "Nave all'ancora", "Rimorchiatore"],
-    "answer": 1,
-    "rationale": "È il segnale diurno per un'unità intenta alla pesca (es. reti da posta)."
-  },
-  {
-    "question": "Il 'Dislocamento leggero' è:",
-    "options": ["La nave che trasporta piume", "Il peso della nave vuota, senza carichi, combustibile o passeggeri", "La nave che viaggia veloce", "Il peso delle sole ancore"],
-    "answer": 1,
-    "rationale": "È il peso della nave così come esce dal cantiere."
-  },
-  {
-    "question": "In caso di 'Collisione imminente', la prima cosa da fare è:",
-    "options": ["Abbandonare la nave", "Mettere le macchine indietro tutta e cercare di ridurre l'angolo di impatto", "Chiamare l'armatore", "Chiudere gli oblò"],
-    "answer": 1,
-    "rationale": "Bisogna cercare di minimizzare i danni e la forza dell'urto."
+    "rationale": "Il 're dei nodi' marinari."
   },
   {
     "question": "Cosa indica la bandiera 'L' (Lima)?",
-    "options": ["Ho bisogno di assistenza", "Fermate subito la vostra nave!", "Sto virando", "La mia nave è in quarantena"],
-    "answer": 1,
-    "rationale": "Lima significa: 'Fermate immediatamente la vostra unità'."
-  },
-  {
-    "question": "Un segnale cardinale SUD ha i coni con le punte rivolte:",
-    "options": ["Entrambe in alto", "Entrambe in basso", "Punte unite", "Basi unite"],
-    "answer": 1,
-    "rationale": "Sud = Punte verso il basso (Sud)."
-  },
-  {
-    "question": "Il 'Rilevamento' di un oggetto è:",
-    "options": ["La sua distanza", "L'angolo tra il Nord e la linea di mira dell'oggetto", "La sua altezza sul mare", "Il suo peso"],
-    "answer": 1,
-    "rationale": "Rilevare significa misurare la direzione di un oggetto rispetto al Nord."
-  },
-  {
-    "question": "Il 'Passo Effettivo' dell'elica è:",
-    "options": ["Maggiore del passo teorico", "Minore del passo teorico a causa del regresso nell'acqua", "Uguale al diametro", "Sempre zero"],
-    "answer": 1,
-    "rationale": "A causa della fluidità dell'acqua, l'elica 'slitta' e percorre meno spazio del teorico."
-  },
-  {
-    "question": "Cosa indica il 'Bouncing' (Rimbalzo) nel radar?",
-    "options": ["Un errore del display", "Il riflesso del segnale su un ostacolo", "La velocità della nave", "La profondità"],
-    "answer": 1,
-    "rationale": "Il radar basa tutto sul riflesso (eco) delle onde radio."
-  },
-  {
-    "question": "Qual è il significato di un fanale GIALLO di poppa su un rimorchiatore?",
-    "options": ["Rimorchiatore guasto", "Fanale di rimorchio (mostrato sopra quello bianco di poppa)", "Nave pilota", "Nave che trasporta posta"],
-    "answer": 1,
-    "rationale": "Il fanale giallo a poppa identifica l'attività di rimorchio."
-  },
-  {
-    "question": "Cosa sono le 'Ombrinali'?",
-    "options": ["Le luci di cortesia", "Fori praticati nei ponti o nelle murate per lo scarico dell'acqua piovana o di mare", "Le coperte dei letti", "Le finestre della cabina"],
-    "answer": 1,
-    "rationale": "Servono a liberare velocemente il ponte dall'acqua per la stabilità e sicurezza."
-  },
-  {
-    "question": "Cosa si intende per 'Nave Appruata'?",
-    "options": ["Nave pronta a partire", "Nave con immersione di prua maggiore di quella di poppa", "Nave molto veloce", "Nave con l'ancora a prua"],
-    "answer": 1,
-    "rationale": "Si dice anche 'differenza di assetto positiva verso prua'."
-  },
-  {
-    "question": "In navigazione con nebbia, un'unità a vela emette:",
-    "options": ["Un suono lungo", "Un suono lungo seguito da due brevi ogni 2 minuti", "Tre suoni lunghi", "Un suono di campana"],
-    "answer": 1,
-    "rationale": "È lo stesso segnale usato da navi che pescano, rimorchiano o hanno manovrabilità limitata."
-  },
-  {
-    "question": "Il 'Verricello' o 'Argano' serve per:",
-    "options": ["Manovrare il timone", "Alzare l'ancora o alare le cime di ormeggio", "Pompare l'acqua", "Girare l'elica"],
-    "answer": 1,
-    "rationale": "È la macchina di coperta per la movimentazione di pesi e catene."
-  },
-  {
-    "question": "Cosa indica la bandiera 'V' (Victor)?",
-    "options": ["Ho vinto una regata", "Richiedo assistenza", "Ho un'avaria ai motori", "Uomo in mare"],
-    "answer": 1,
-    "rationale": "Victor = 'Richiedo assistenza'."
-  },
-  {
-    "question": "Cos'è il 'Quartiére' di una nave?",
-    "options": ["La zona dove vive l'equipaggio", "La parte del fianco della nave compresa tra il traverso e la poppa", "La quarta parte del carico", "Un tipo di vela"],
-    "answer": 1,
-    "rationale": "Il quartiere (o giardinetto) è la zona 'di spalla' a poppa."
-  },
-  {
-    "question": "La 'Pratica Sanitaria' è:",
-    "options": ["Un allenamento medico", "L'autorizzazione della Sanità Marittima ad avere contatti con la terraferma", "La pulizia della nave", "Il kit di primo soccorso"],
-    "answer": 1,
-    "rationale": "Senza libera pratica nessuno può salire o scendere dalla nave."
-  },
-  {
-    "question": "Cosa indica un segnale sonoro di DUE fischi brevi (· ·)?",
-    "options": ["Sto accostando a dritta", "Sto accostando a sinistra", "Vado indietro", "Chiedo strada"],
-    "answer": 1,
-    "rationale": "Un fischio = dritta; due fischi = sinistra."
-  },
-  {
-    "question": "Cos'è la 'Gavitello'?",
-    "options": ["Un piccolo pesce", "Un piccolo galleggiante usato per segnalare la posizione dell'ancora o di un ormeggio", "Una corda sottile", "Una bussola portatile"],
-    "answer": 1,
-    "rationale": "Serve a individuare dove si trova l'ancora (grippiale) o a ormeggiarsi."
-  },
-  {
-    "question": "Il 'Boccaporto' è:",
-    "options": ["L'apertura sul ponte per l'accesso alle stive o ai locali sottostanti", "La porta della cabina del comandante", "L'ingresso del porto", "Il tubo di scarico"],
+    "options": ["Fermate subito la vostra nave", "Gira a sinistra", "Ho il pilota", "Uomo in mare"],
     "answer": 0,
-    "rationale": "Le aperture orizzontali sui ponti sono i boccaporti."
+    "rationale": "Segnale di intimazione internazionale."
+  },
+  {
+    "question": "Che miraglio ha il cardinale SUD?",
+    "options": ["Due coni punte in alto", "Due coni punte in basso", "Punte unite", "Basi unite"],
+    "answer": 1,
+    "rationale": "Le punte indicano la direzione Sud."
+  },
+  {
+    "question": "Qual è il compito del 'Nostromo'?",
+    "options": ["Cucinare", "Capo dei servizi di coperta e manutenzione scafo", "Guidare la nave", "Riparare i radar"],
+    "answer": 1,
+    "rationale": "È il sottufficiale/marittimo esperto responsabile della coperta."
+  },
+  {
+    "question": "Cosa significa 'Salpare'?",
+    "options": ["Buttare l'ancora", "Tirare su l'ancora e partire", "Saltare sulla barca", "Pescare"],
+    "answer": 1,
+    "rationale": "Indica l'atto di togliere l'ormeggio dal fondo."
+  },
+  {
+    "question": "Il 'Punto Nave' certo si ottiene tramite:",
+    "options": ["Stima", "Osservazione di punti cospicui, astri o GPS", "Guardando il cielo", "Chiedendo via radio"],
+    "answer": 1,
+    "rationale": "A differenza della stima, si basa su dati reali misurati."
+  },
+  {
+    "question": "Cosa indica una boa con miraglio a forma di CILINDRO rosso?",
+    "options": ["Lato destro entrando", "Lato sinistro entrando (Zona A)", "Pericolo isolato", "Acque sicure"],
+    "answer": 1,
+    "rationale": "Forma e colore sono legati al lato sinistro della Regione A."
+  },
+  {
+    "question": "Cos'è il 'Vento Reale'?",
+    "options": ["Il vento che sentiamo muovendoci", "Il vento che soffia effettivamente sulla superficie del mare (misurato da fermi)", "Un vento molto forte", "Il vento del Re"],
+    "answer": 1,
+    "rationale": "Si distingue dal 'Vento Apparente', che è la somma tra reale e vento di trascinamento della nave."
+  },
+  {
+    "question": "In caso di falla, la prima azione è:",
+    "options": ["Scappare", "Cercare di turare il buco e attivare le pompe", "Chiamare casa", "Prendere il sole"],
+    "answer": 1,
+    "rationale": "Bisogna limitare immediatamente l'ingresso dell'acqua."
+  },
+  {
+    "question": "Qual è la funzione del 'Timone'?",
+    "options": ["Far correre la nave", "Dirigere la nave modificando il flusso d'acqua a poppa", "Pescare", "Frenare"],
+    "answer": 1,
+    "rationale": "Organo direzionale principale."
   }
-] 
+]
+ 
